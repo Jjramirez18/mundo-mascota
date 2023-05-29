@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     border: 0;
+
+    font-family: 'Alkatra', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
