@@ -149,9 +149,9 @@ p {
 
 /***********************PRODUCTOS***********************************/
 .sau {
-    padding: 30px;
+    padding: 150px 0;
     background: #1f1d1d;
-    height: auto;
+    height: 100vh;
 }
 
 .box-container {
@@ -218,8 +218,9 @@ p {
 /*******************NOSOTROS*******************************/
 
 .about {
+    display: flexbox;
     background: #171717;
-    height: 80vh;
+    height: 100vh;
 }
 
 /*******************CONTACTO*********************/
@@ -320,4 +321,70 @@ footer a>i {
 footer>p {
     margin: 5px;
     padding-bottom: 5px;
+}
+
+
+
+@media (min-width: 600px) and (max-width:1280px){
+
+    body{
+        font: size 0.2rem; ;
+    }
+
+    .head{
+        flex-direction: column;
+        font-size: small;
+        height: auto;
+    }
+    .title {
+        font-size: medium;
+    }
+
+    .sau{
+        height: auto;
+    }
+    .about{
+        height: auto;
+        padding: 200px 0;
+    }
+
+    .productos {
+        grid-template-columns: .2fr .2fr ;
+        width: auto;
+    }
+    .producto-img {
+        height: 100px;
+    }
+
+    .producto-detalles{
+        align-items: center;
+    }
+
+    .box-container{
+        justify-content:left;
+    }
+
+
+    .contact{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .contact-container{
+        justify-content:space-around;
+    }
+
+    form{
+        width: auto;
+        font-size:small;
+    }
+
+    textarea{
+        width: auto;
+    }
+
+    .mapa iframe{
+        height: 50%;
+        width: auto;
+    }
 }
