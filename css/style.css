@@ -149,9 +149,9 @@ p {
 
 /***********************PRODUCTOS***********************************/
 .sau {
-    padding: 150px 0;
+    padding-top: 100px;
     background: #1f1d1d;
-    height: 100vh;
+    
 }
 
 .box-container {
@@ -227,9 +227,9 @@ p {
 
 .contact {
     display: flex;
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 0;
-    height: 100vh;
+
 }
 
 .contact-container {
@@ -333,13 +333,22 @@ footer>p {
 
     .head{
         flex-direction: column;
-        font-size: small;
         height: auto;
     }
-    .title {
-        font-size: medium;
+    .head div{
+        margin: 0;
+    }
+    .head a{
+        font-size: 14px ;
     }
 
+    .header .title{
+        padding: 50px 0;
+        margin:50px 0;
+    }
+    p{
+        font-size: 18px;
+    }
     .sau{
         height: auto;
     }
@@ -349,11 +358,15 @@ footer>p {
     }
 
     .productos {
-        grid-template-columns: .2fr .2fr ;
-        width: auto;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .producto{
+        margin: 1rem;
     }
     .producto-img {
-        height: 100px;
+        height: 150px;
+        width: 150px;
     }
 
     .producto-detalles{
