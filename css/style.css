@@ -401,3 +401,76 @@ footer>p {
         width: auto;
     }
 }
+
+
+@media (min-width: 400px){
+    .head{
+        flex-direction: column;
+        height: auto;
+    
+    }
+    .head div{
+        margin: 0;
+    }
+    .navbar a{
+        font-size: 12px;
+        width: 70px;
+    }
+
+    .header .title{
+        padding: 50px 0;
+        margin:50px 0;
+    }
+    p{
+        font-size: 18px;
+    }
+    .sau{
+        height: auto;
+    }
+    .about{
+        height: auto;
+        padding: 200px 0;
+    }
+
+    .productos {
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .producto{
+        margin: 10px;
+    }
+    .producto-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .producto-detalles{
+        align-items: center;
+        width: 150px;
+    }
+
+    .box-container{
+        justify-content:left;
+    }
+
+
+
+    .contact-container{
+        justify-content:space-around;
+        flex-direction: column;
+    }
+
+    form{
+        width: auto;
+        font-size:small;
+    }
+
+    textarea{
+        width: auto;
+    }
+
+    .mapa iframe{
+        height: 50%;
+        width: auto;
+    }
+}
