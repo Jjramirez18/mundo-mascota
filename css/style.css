@@ -327,9 +327,7 @@ footer>p {
 
 @media (min-width: 600px) and (max-width:1280px){
 
-    body{
-        font: size 0.2rem; ;
-    }
+
 
     .head{
         flex-direction: column;
@@ -403,7 +401,7 @@ footer>p {
 }
 
 
-@media (min-width: 400px){
+@media (max-width: 600px){
     .head{
         flex-direction: column;
         height: auto;
@@ -414,7 +412,7 @@ footer>p {
     }
     .navbar a{
         font-size: 12px;
-        width: 70px;
+        width: 80px;
     }
 
     .header .title{
@@ -422,7 +420,7 @@ footer>p {
         margin:50px 0;
     }
     p{
-        font-size: 18px;
+        font-size: 12px;
     }
     .sau{
         height: auto;
